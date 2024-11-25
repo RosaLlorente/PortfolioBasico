@@ -262,7 +262,7 @@ section{
     width: 200%;
     height: 0.2rem;
     background-color: rgb(58, 36, 2);
-    animation: Objetivos 15s linear infinite;}
+    animation: Objetivos1 15s linear infinite;}
 .objective {
     position: absolute;
     top: -1rem;
@@ -705,7 +705,7 @@ footer > section > .frase{
         border-right-color: #826c32; 
         border-bottom-color: #614124; 
         border-left-color: #8e5f37;}}
-@keyframes Objetivos {
+@keyframes Objetivos1 {
     0% {left: 0%;}
     100% {left: -100%;}}
 
