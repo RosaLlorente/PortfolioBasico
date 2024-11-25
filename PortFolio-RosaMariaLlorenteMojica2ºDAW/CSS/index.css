@@ -895,8 +895,6 @@ footer > section > .frase{
     form {
         width: 90%;}}
 
-    /* FOOOTER */
-    footer{width: 25rem;}
     /* ANIMACIONES */
     @keyframes Objetivos {
         0% {left: 0%;}
