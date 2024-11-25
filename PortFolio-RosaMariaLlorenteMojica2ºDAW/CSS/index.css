@@ -870,14 +870,15 @@ footer > section > .frase{
     #Comentarios > .Comentario > div 
     {
         width: 3rem;
-        height: 3rem;
+        height: auto;
+        border-radius: 100%;
     }
     #Comentarios > .Comentario > div > img {
         width: 3rem;
         height: 3rem;
         object-fit: cover;
         object-position: center;
-        border-radius: 50%;}
+        }
     #Comentarios > div > .Comentario > article {
         margin: 0.8rem;
         gap: 0.5rem;}
@@ -887,12 +888,15 @@ footer > section > .frase{
         font-weight: bold;}
 
     /* CONTACTO */
+    #Contacto{width: 25rem;}
     #Contacto > div {
         flex-direction: column;
         align-items: center;}
     form {
         width: 90%;}}
 
+    /* FOOOTER */
+    footer{width: 25rem;}
     /* ANIMACIONES */
     @keyframes Objetivos {
         0% {left: 0%;}
